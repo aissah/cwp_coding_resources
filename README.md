@@ -8,7 +8,7 @@ All code related to the project
 Some documentation
 
 ## scripts
-Specific implementations of the package
+Specific implementations code
 
 ## tests
 Tests of the code
