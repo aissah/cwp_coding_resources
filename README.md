@@ -1,2 +1,14 @@
 # cwp_coding_resources
-The repo would serve as a template for cwp codes with guidelines on coding requirements and also have documentation of the various coding resources.
+The repo is a template for Center for Wave Phenomena (CWP) codes with coding requirements guidelines and documentation of the various coding resources.
+
+## cwp_coding_resources
+All code related to the project
+
+## docs
+Some documentation
+
+## scripts
+Specific implementations of the package
+
+## tests
+Tests of the code
