@@ -5,7 +5,8 @@ builtins = ["_"]
 
 [lint]
 # Add rules for linting
-extend-select = ["D", #pydocstyle
+extend-select = [
+    "D", #pydocstyle
     "N", # pep8-naming
     "I", # isort
     "E", # pycodestyle error

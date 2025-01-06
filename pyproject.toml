@@ -16,7 +16,6 @@ notebooks = [
 
 [tool.uv]
 dev-dependencies = [
-    "pytest-codspeed>=3.1.0",
     "pytest>=8.3.4",
     "ruff>=0.6.8",
 ]
@@ -29,7 +28,8 @@ builtins = ["_"]
 
 [tool.ruff.lint]
 # Add rules for linting
-extend-select = ["D", #pydocstyle
+extend-select = [
+    "D", #pydocstyle
     "N", # pep8-naming
     "I", # isort
     "E", # pycodestyle error
