@@ -33,3 +33,7 @@ This is a file that can be used by python to specify details of the project. Thi
 ## ruff.toml
 
 This is a configuration file for ruff linter and formatter.
+
+## Recommendation
+
+To make life easier in managing your project, I would suggest you [install uv](https://docs.astral.sh/uv/getting-started/installation/). uv makes it easy to initialize the project, create a dedicated environment, manage dependencies, update pyproject.toml, and export dependencies in other file types.
