@@ -25,3 +25,11 @@ This tells git which files and directories not to track. If we have some huge da
 ## LICENSE
 
 This tells others to what extent they are allowed to use our code. The MIT license used here is not particularly restrictive. You may want to talk about this with your group and look at other options that best suit how you want your code to be used.
+
+## pyproject.toml
+
+This is a file that can be used by python to specify details of the project. This comes in handy when we eventaully plan to package our code and make it installable.
+
+## ruff.toml
+
+This is a configuration file for ruff linter and formatter.
