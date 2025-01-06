@@ -1,0 +1,20 @@
+# Set the maximum line length to 79.
+line-length = 79
+# enable ruff built in defaults
+builtins = ["_"]
+
+[lint]
+# Add rules for linting
+extend-select = ["D", #pydocstyle
+    "N", # pep8-naming
+    "I", # isort
+    "E", # pycodestyle error
+    "F" # Pyflakes rules
+]
+
+[lint.pydocstyle]
+# function documentation style
+convention = "numpy"
+
+[format]
+docstring-code-format = true
