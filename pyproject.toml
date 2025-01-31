@@ -29,7 +29,7 @@ builtins = ["_"]
 [tool.ruff.lint]
 # Add rules for linting
 extend-select = [
-    "D", #pydocstyle
+    "D", # pydocstyle
     "N", # pep8-naming
     "I", # isort
     "E", # pycodestyle error
