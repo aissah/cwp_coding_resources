@@ -1,6 +1,6 @@
 # Overview
 
-The repo is a template for Center for Wave Phenomena (CWP) codes with coding requirements guidelines and documentation of the various coding resources. Each of the files and directories are described here in the various sections.
+The repo is meant to serve as a template for Center for Wave Phenomena (CWP) codes with coding requirements guidelines and documentation of the various coding resources. Each of the files and directories are described here in the various sections.
 
 ## cwp_coding_resources
 
@@ -32,7 +32,7 @@ This is a file that can be used by python to specify details of the project. Thi
 
 ## ruff.toml
 
-This is a configuration file for ruff linter and formatter.
+This is a configuration file for ruff linter and formatter. It specifies the rules that the linter should follow and the formatting style that the formatter should use. [Ruff](https://docs.astral.sh/ruff/) is a linter and formatter that helps maintain a consistent code style across the project.
 
 ## Recommendation
 
