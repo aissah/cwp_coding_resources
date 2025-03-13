@@ -4,7 +4,7 @@ The repo is meant to serve as a template for Center for Wave Phenomena (CWP) cod
 
 ## cwp_coding_resources
 
-This directory contains codes relevant to the project itself. It may include separate files/directories for helper functions and the main code. This can be renamed to the name of the project.
+This directory contains codes relevant to the project itself. It may include separate files or directories for helper functions and the main code. This can be renamed to the name of the project. Currently, it contains a `__init__.py` file which makes the directory a package. This is useful when we want to import functions from the package in other files. It also contains a `project_codes.py` file which is the entry point of the project. This is where the main code is run from and can also be renamed to the name of the project. Finally, it contains a `utils.py` file which contains helper functions that are used in the main code. `utils.py` contains functions that **illustrate how to document functions**.
 
 ## docs
 
