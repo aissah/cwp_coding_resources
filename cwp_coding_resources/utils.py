@@ -5,7 +5,7 @@ moving_average() illustrates a specific case of a numpy docstring
 '''
 import numpy as np
 
-def example_function():
+def example_function() -> None:
     '''
     One line description of the function.
 
@@ -34,7 +34,7 @@ def example_function():
     print('example function')
     return None
 
-def moving_average(data, window_size):
+def moving_average(data: np.array, window_size: int) -> np.array:
     """
     Compute the moving average of a 1D array using a specified window size.
 
