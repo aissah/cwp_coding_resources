@@ -38,6 +38,20 @@ This is a configuration file for ruff linter and formatter. It specifies the rul
 
 This is a configuration file for pre-commit hooks. Pre-commit hooks are scripts that run before a commit is made. They can be used to check for code style violations, run tests, and perform other checks to ensure that the code being committed is of high quality. [Pre-commit](https://pre-commit.com/) is a framework for managing and maintaining multi-language pre-commit hooks. The configuration here checks for code formatting using ruff and black, checks for large files, and checks jypter notebooks to strip output cells. Stripping output cells is useful to avoid committing large output files that can bloat the repo size. Hooks can be added or removed as per the project requirements.
 
+To use, first install pre-commit using pip:
+
+```bash
+pip install pre-commit
+```
+
+Then, install the git hooks specified in the configuration file:
+
+```bash
+pre-commit install
+```
+
+After this, the hooks will run automatically before every git commit.
+
 ## Recommendation
 
 To make life easier in managing your project, I would suggest you [install uv](https://docs.astral.sh/uv/getting-started/installation/). uv makes it easy to initialize the project, create a dedicated environment, manage dependencies, update pyproject.toml, and export dependencies in other file types.
